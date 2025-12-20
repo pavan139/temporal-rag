@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "03",
+  "repository_name": "temporal-rag",
+  "title": "Temporal RAG",
+  "package": "temporal_rag",
+  "focus": "Changing facts, historical retrieval, provenance, abstention",
+  "layout": {
+    "docs_root": "design",
+    "tests_root": "test",
+    "tools_root": "tools",
+    "config_root": "policies",
+    "examples_root": "walkthrough",
+    "verifier": "tools/check_retrieval.py",
+    "source_roots": [
+      "src"
+    ],
+    "documents": {
+      "architecture": "design/bitemporal-layout.md",
+      "design": "design/interval-index.md",
+      "review": "design/temporal-invariants.md",
+      "experiments": "design/time-travel-cases.md",
+      "publishing": "design/sharing-the-event-log.md",
+      "validation": "design/reproducing-the-retriever.md"
+    }
+  }
+}

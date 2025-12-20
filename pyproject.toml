@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==78.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-rag-lab"
+version = "0.1.0"
+description = "Bitemporal retrieval with correction provenance and reproducible offline evaluation"
+requires-python = ">=3.11"
+dependencies = []
+
+readme = "README.md"
+license = "MIT"
+
+[project.optional-dependencies]
+hf = ["transformers>=4.45,<5", "torch>=2.4,<3"]
+
+[project.scripts]
+temporal-rag = "temporal_rag.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

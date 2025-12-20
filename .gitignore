@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+artifacts/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.coverage
+
+# Independent repository tooling
+.venv/
+__pycache__/
+*.egg-info/
+.ruff_cache/
+build/
+dist/
+.env
+.env.*
+!.env.example
