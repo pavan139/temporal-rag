@@ -1,0 +1,9 @@
+{
+  "dataset": "synthetic_temporal_events_v1",
+  "seed": 7,
+  "answerer": "deterministic_reference_v1",
+  "max_events": 5000,
+  "max_query_chars": 500,
+  "fixture_snapshot": "2025-04-15T00:00:00Z",
+  "note": "Documents the fixed CLI defaults. No model provider is configured."
+}
