@@ -1,0 +1,43 @@
+{
+  "live_model_calls": 0,
+  "mode": "offline_synthetic_reference",
+  "query": {
+    "as_of": "2025-01-15T00:00:00Z",
+    "attribute": "owner",
+    "entity": "atlas",
+    "known_at": "2025-04-15T00:00:00Z"
+  },
+  "results": {
+    "lexical_latest": {
+      "citations": [],
+      "error": "Evidence is not yet effective at the requested valid time",
+      "reason": "future_effective_context",
+      "status": "rejected_context",
+      "value": null
+    },
+    "timestamp_aware": {
+      "answerer": "deterministic_reference_v1",
+      "as_of": "2025-01-15T00:00:00+00:00",
+      "citations": [
+        "a1"
+      ],
+      "known_at": "2025-04-15T00:00:00+00:00",
+      "provenance": [
+        {
+          "attribute": "owner",
+          "corrects": null,
+          "effective_at": "2025-01-01T00:00:00Z",
+          "entity": "atlas",
+          "id": "a1",
+          "recorded_at": "2025-01-01T00:00:00Z",
+          "source_uri": "synthetic://events/a1",
+          "text": "atlas owner is Ada. Effective 2025-01-01; recorded 2025-01-01.",
+          "value": "Ada"
+        }
+      ],
+      "reason": "supported",
+      "status": "answered",
+      "value": "Ada"
+    }
+  }
+}
