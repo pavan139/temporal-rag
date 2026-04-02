@@ -1,0 +1,73 @@
+{
+  "live_model_calls": 0,
+  "mode": "offline_reference",
+  "query_result": {
+    "answerer": "deterministic_reference_v1",
+    "as_of": "2025-03-15T00:00:00+00:00",
+    "citations": [
+      "a5"
+    ],
+    "known_at": "2025-04-15T00:00:00+00:00",
+    "provenance": [
+      {
+        "attribute": "owner",
+        "corrects": "a3",
+        "effective_at": "2025-02-01T00:00:00Z",
+        "entity": "atlas",
+        "id": "a5",
+        "recorded_at": "2025-03-25T00:00:00Z",
+        "source_uri": "synthetic://events/a5",
+        "text": "atlas owner is Cora. Effective 2025-02-01; recorded 2025-03-25.",
+        "value": "Cora"
+      }
+    ],
+    "reason": "supported",
+    "status": "answered",
+    "value": "Cora"
+  },
+  "retrieval_audit": {
+    "as_of": "2025-03-15T00:00:00+00:00",
+    "decisions": [
+      {
+        "corrects": null,
+        "decision": "older_effective_boundary",
+        "effective_at": "2025-01-01T00:00:00+00:00",
+        "event_id": "a1",
+        "recorded_at": "2025-01-01T00:00:00+00:00"
+      },
+      {
+        "corrects": null,
+        "decision": "superseded_by_visible_correction",
+        "effective_at": "2025-02-01T00:00:00+00:00",
+        "event_id": "a2",
+        "recorded_at": "2025-02-01T00:00:00+00:00"
+      },
+      {
+        "corrects": "a2",
+        "decision": "superseded_by_visible_correction",
+        "effective_at": "2025-02-01T00:00:00+00:00",
+        "event_id": "a3",
+        "recorded_at": "2025-03-10T00:00:00+00:00"
+      },
+      {
+        "corrects": "a3",
+        "decision": "selected",
+        "effective_at": "2025-02-01T00:00:00+00:00",
+        "event_id": "a5",
+        "recorded_at": "2025-03-25T00:00:00+00:00"
+      },
+      {
+        "corrects": null,
+        "decision": "not_yet_effective",
+        "effective_at": "2025-04-01T00:00:00+00:00",
+        "event_id": "a4",
+        "recorded_at": "2025-03-20T00:00:00+00:00"
+      }
+    ],
+    "known_at": "2025-04-15T00:00:00+00:00",
+    "selected_ids": [
+      "a5"
+    ],
+    "visible_candidate_count": 5
+  }
+}
