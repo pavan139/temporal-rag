@@ -1,0 +1,171 @@
+{
+  "answerer": "deterministic_reference_v1",
+  "case_count": 19,
+  "dataset": "synthetic_temporal_events_v1",
+  "dataset_sha256": "a6db51ac2db2457d601968444b37dc1f4b05e9d2f7aa13138237982bfe2a7575",
+  "event_count": 13,
+  "live_model_calls": 0,
+  "systems": {
+    "lexical_latest": {
+      "answer": {
+        "accuracy": 0.5789473684210527,
+        "case_count": 19,
+        "citation_membership_accuracy": 1.0,
+        "citation_membership_case_count": 13,
+        "correct": 11,
+        "correct_abstentions": 2,
+        "expected_abstention_count": 4,
+        "rejected_context_count": 6
+      },
+      "failures": [
+        "historical_owner",
+        "current_owner",
+        "before_first_fact",
+        "historical_status",
+        "late_event_not_effective",
+        "before_conflict",
+        "conflicting_sources",
+        "timezone_boundary"
+      ],
+      "retrieval": {
+        "case_count": 19,
+        "exact_source_set_accuracy": 0.5789473684210527,
+        "exact_source_sets": 11,
+        "macro_recall": 0.59375,
+        "nonempty_relevance_case_count": 16
+      },
+      "slices": {
+        "boundary": {
+          "answer_correct": 1,
+          "case_count": 2,
+          "context_rejections": 1,
+          "retrieval_exact": 1
+        },
+        "contradictory": {
+          "answer_correct": 0,
+          "case_count": 1,
+          "context_rejections": 0,
+          "retrieval_exact": 0
+        },
+        "correction": {
+          "answer_correct": 2,
+          "case_count": 2,
+          "context_rejections": 0,
+          "retrieval_exact": 2
+        },
+        "current": {
+          "answer_correct": 1,
+          "case_count": 2,
+          "context_rejections": 0,
+          "retrieval_exact": 1
+        },
+        "historical": {
+          "answer_correct": 0,
+          "case_count": 4,
+          "context_rejections": 4,
+          "retrieval_exact": 0
+        },
+        "injection": {
+          "answer_correct": 1,
+          "case_count": 1,
+          "context_rejections": 0,
+          "retrieval_exact": 1
+        },
+        "knowledge_cutoff": {
+          "answer_correct": 3,
+          "case_count": 3,
+          "context_rejections": 0,
+          "retrieval_exact": 3
+        },
+        "late_arrival": {
+          "answer_correct": 1,
+          "case_count": 1,
+          "context_rejections": 0,
+          "retrieval_exact": 1
+        },
+        "missing": {
+          "answer_correct": 2,
+          "case_count": 3,
+          "context_rejections": 1,
+          "retrieval_exact": 2
+        }
+      }
+    },
+    "timestamp_aware": {
+      "answer": {
+        "accuracy": 1.0,
+        "case_count": 19,
+        "citation_membership_accuracy": 1.0,
+        "citation_membership_case_count": 19,
+        "correct": 19,
+        "correct_abstentions": 4,
+        "expected_abstention_count": 4,
+        "rejected_context_count": 0
+      },
+      "failures": [],
+      "retrieval": {
+        "case_count": 19,
+        "exact_source_set_accuracy": 1.0,
+        "exact_source_sets": 19,
+        "macro_recall": 1.0,
+        "nonempty_relevance_case_count": 16
+      },
+      "slices": {
+        "boundary": {
+          "answer_correct": 2,
+          "case_count": 2,
+          "context_rejections": 0,
+          "retrieval_exact": 2
+        },
+        "contradictory": {
+          "answer_correct": 1,
+          "case_count": 1,
+          "context_rejections": 0,
+          "retrieval_exact": 1
+        },
+        "correction": {
+          "answer_correct": 2,
+          "case_count": 2,
+          "context_rejections": 0,
+          "retrieval_exact": 2
+        },
+        "current": {
+          "answer_correct": 2,
+          "case_count": 2,
+          "context_rejections": 0,
+          "retrieval_exact": 2
+        },
+        "historical": {
+          "answer_correct": 4,
+          "case_count": 4,
+          "context_rejections": 0,
+          "retrieval_exact": 4
+        },
+        "injection": {
+          "answer_correct": 1,
+          "case_count": 1,
+          "context_rejections": 0,
+          "retrieval_exact": 1
+        },
+        "knowledge_cutoff": {
+          "answer_correct": 3,
+          "case_count": 3,
+          "context_rejections": 0,
+          "retrieval_exact": 3
+        },
+        "late_arrival": {
+          "answer_correct": 1,
+          "case_count": 1,
+          "context_rejections": 0,
+          "retrieval_exact": 1
+        },
+        "missing": {
+          "answer_correct": 3,
+          "case_count": 3,
+          "context_rejections": 0,
+          "retrieval_exact": 3
+        }
+      }
+    }
+  }
+}
