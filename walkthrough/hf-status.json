@@ -1,0 +1,12 @@
+{
+  "status": "not_run",
+  "provider": "huggingface_transformers_local",
+  "answerer": "local_hf_grounded_v1",
+  "checkpoint_path": null,
+  "executed": false,
+  "model_calls": 0,
+  "reason": "No local checkpoint was supplied. No weights were loaded and no generation was executed.",
+  "dataset": "synthetic_temporal_events_v1",
+  "planned_case_count": 19,
+  "generation_metrics": null
+}
