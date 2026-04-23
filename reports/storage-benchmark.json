@@ -1,0 +1,2939 @@
+{
+  "append_total_seconds": 0.31296968100286904,
+  "append_transactions": [
+    {
+      "correction_target_lookups": 0,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.015278877001037472,
+      "version": 1
+    },
+    {
+      "correction_target_lookups": 90,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.02253342499898281,
+      "version": 2
+    },
+    {
+      "correction_target_lookups": 86,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.025808831000176724,
+      "version": 3
+    },
+    {
+      "correction_target_lookups": 84,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.025315500000942848,
+      "version": 4
+    },
+    {
+      "correction_target_lookups": 116,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.019947634000345715,
+      "version": 5
+    },
+    {
+      "correction_target_lookups": 88,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.05306459200073732,
+      "version": 6
+    },
+    {
+      "correction_target_lookups": 82,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.021090804000778007,
+      "version": 7
+    },
+    {
+      "correction_target_lookups": 90,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.01793740900029661,
+      "version": 8
+    },
+    {
+      "correction_target_lookups": 90,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.024524636999558425,
+      "version": 9
+    },
+    {
+      "correction_target_lookups": 92,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.04801035300079093,
+      "version": 10
+    },
+    {
+      "correction_target_lookups": 100,
+      "events_inserted": 1000,
+      "transaction_seconds": 0.026466489000085858,
+      "version": 11
+    },
+    {
+      "correction_target_lookups": 89,
+      "events_inserted": 497,
+      "transaction_seconds": 0.01299112999913632,
+      "version": 12
+    }
+  ],
+  "base_versions_per_entity": 64,
+  "cases": [
+    {
+      "as_of": "2020-04-12T00:00:00+00:00",
+      "entity": "entity-0012",
+      "indexed_ids": [
+        "entity-0012-0014"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0003247959994041594,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.000307612999677076,
+        "sqlite_vm_steps_estimate": 1400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-19T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0012-0014"
+      ],
+      "query_index": 0,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001868913999715005
+    },
+    {
+      "as_of": "2020-02-03T00:00:00+00:00",
+      "entity": "entity-0050",
+      "indexed_ids": [
+        "entity-0050-0006"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 8.815900037006941e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 7.462199937435798e-05,
+        "sqlite_vm_steps_estimate": 500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-18T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0050-0006"
+      ],
+      "query_index": 1,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.006911067001055926
+    },
+    {
+      "as_of": "2020-06-25T00:00:00+00:00",
+      "entity": "entity-0032",
+      "indexed_ids": [
+        "entity-0032-0033"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0015225030001602136,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00024969299920485355,
+        "sqlite_vm_steps_estimate": 2800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-13T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0032-0033"
+      ],
+      "query_index": 2,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002719349999097176
+    },
+    {
+      "as_of": "2020-07-26T00:00:00+00:00",
+      "entity": "entity-0084",
+      "indexed_ids": [
+        "entity-0084-0050"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00045052099994791206,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00043246399945928715,
+        "sqlite_vm_steps_estimate": 3700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-31T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0084-0050"
+      ],
+      "query_index": 3,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011330839988659136
+    },
+    {
+      "as_of": "2020-02-20T00:00:00+00:00",
+      "entity": "entity-0109",
+      "indexed_ids": [
+        "entity-0109-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018952299978991505,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001754869990691077,
+        "sqlite_vm_steps_estimate": 2000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-26T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0109-0016"
+      ],
+      "query_index": 4,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008346970007551135
+    },
+    {
+      "as_of": "2020-02-26T00:00:00+00:00",
+      "entity": "entity-0052",
+      "indexed_ids": [
+        "entity-0052-0001"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 6.95550006639678e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 5.736700040870346e-05,
+        "sqlite_vm_steps_estimate": 300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-12T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0052-0001"
+      ],
+      "query_index": 5,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001144506000855472
+    },
+    {
+      "as_of": "2020-02-11T00:00:00+00:00",
+      "entity": "entity-0030",
+      "indexed_ids": [
+        "entity-0030-0013-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00020663800023612566,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00019144999896525405,
+        "sqlite_vm_steps_estimate": 1700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-29T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0030-0013-c1"
+      ],
+      "query_index": 6,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009694050004327437
+    },
+    {
+      "as_of": "2020-05-17T00:00:00+00:00",
+      "entity": "entity-0042",
+      "indexed_ids": [
+        "entity-0042-0045"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0002206230001320364,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0002062580006167991,
+        "sqlite_vm_steps_estimate": 3500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-31T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0042-0045"
+      ],
+      "query_index": 7,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008121250011754455
+    },
+    {
+      "as_of": "2020-03-03T00:00:00+00:00",
+      "entity": "entity-0107",
+      "indexed_ids": [
+        "entity-0107-0020"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001682880010775989,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00015654600065317936,
+        "sqlite_vm_steps_estimate": 2000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0107-0020"
+      ],
+      "query_index": 8,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006334510017040884
+    },
+    {
+      "as_of": "2020-01-27T00:00:00+00:00",
+      "entity": "entity-0113",
+      "indexed_ids": [
+        "entity-0113-0008"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0004621500011126045,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0004459140000108164,
+        "sqlite_vm_steps_estimate": 1000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0113-0008"
+      ],
+      "query_index": 9,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0016795480005384888
+    },
+    {
+      "as_of": "2020-05-16T00:00:00+00:00",
+      "entity": "entity-0049",
+      "indexed_ids": [
+        "entity-0049-0044"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00026339999931224156,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00024716599909879733,
+        "sqlite_vm_steps_estimate": 3500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0049-0044"
+      ],
+      "query_index": 10,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001555294000354479
+    },
+    {
+      "as_of": "2020-07-01T00:00:00+00:00",
+      "entity": "entity-0113",
+      "indexed_ids": [
+        "entity-0113-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00011873400035256054,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00010388700138719287,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-18T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0113-0016"
+      ],
+      "query_index": 11,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007787840004311875
+    },
+    {
+      "as_of": "2020-01-14T00:00:00+00:00",
+      "entity": "entity-0046",
+      "indexed_ids": [
+        "entity-0046-0004"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0003910369996447116,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00037629600046784617,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-30T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0046-0004"
+      ],
+      "query_index": 12,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0013133599986758782
+    },
+    {
+      "as_of": "2020-05-19T00:00:00+00:00",
+      "entity": "entity-0008",
+      "indexed_ids": [
+        "entity-0008-0005"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 7.789500159560703e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 6.517700057884213e-05,
+        "sqlite_vm_steps_estimate": 500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-21T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0008-0005"
+      ],
+      "query_index": 13,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002463622999130166
+    },
+    {
+      "as_of": "2020-04-23T00:00:00+00:00",
+      "entity": "entity-0075",
+      "indexed_ids": [
+        "entity-0075-0020"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00039815099989937153,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00038185300036275294,
+        "sqlite_vm_steps_estimate": 1700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0075-0020"
+      ],
+      "query_index": 14,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010045990002254257
+    },
+    {
+      "as_of": "2020-01-10T00:00:00+00:00",
+      "entity": "entity-0076",
+      "indexed_ids": [
+        "entity-0076-0002"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 8.051499935390893e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 6.42890008748509e-05,
+        "sqlite_vm_steps_estimate": 200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0076-0002"
+      ],
+      "query_index": 15,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.004241335998813156
+    },
+    {
+      "as_of": "2020-02-03T00:00:00+00:00",
+      "entity": "entity-0104",
+      "indexed_ids": [
+        "entity-0104-0011"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00019055200027651154,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00017408799976692535,
+        "sqlite_vm_steps_estimate": 1600,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-13T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0104-0011"
+      ],
+      "query_index": 16,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0016761040005803807
+    },
+    {
+      "as_of": "2020-07-22T00:00:00+00:00",
+      "entity": "entity-0052",
+      "indexed_ids": [
+        "entity-0052-0063"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0011473020003904821,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.001126412998928572,
+        "sqlite_vm_steps_estimate": 5400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-25T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0052-0063"
+      ],
+      "query_index": 17,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.004681638998590643
+    },
+    {
+      "as_of": "2020-02-07T00:00:00+00:00",
+      "entity": "entity-0123",
+      "indexed_ids": [
+        "entity-0123-0012"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018045400065602735,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00016519800010428298,
+        "sqlite_vm_steps_estimate": 1700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-27T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0123-0012"
+      ],
+      "query_index": 18,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010908690001087962
+    },
+    {
+      "as_of": "2020-04-23T00:00:00+00:00",
+      "entity": "entity-0096",
+      "indexed_ids": [
+        "entity-0096-0010"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018281300071976148,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001674330014793668,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-01T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0096-0010"
+      ],
+      "query_index": 19,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0014343370003189193
+    },
+    {
+      "as_of": "2020-04-07T00:00:00+00:00",
+      "entity": "entity-0004",
+      "indexed_ids": [
+        "entity-0004-0004"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 7.441300112986937e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 6.120700163592119e-05,
+        "sqlite_vm_steps_estimate": 400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-14T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0004-0004"
+      ],
+      "query_index": 20,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002294294999956037
+    },
+    {
+      "as_of": "2020-01-30T00:00:00+00:00",
+      "entity": "entity-0013",
+      "indexed_ids": [
+        "entity-0013-0009"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0004280459997971775,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0004120640005567111,
+        "sqlite_vm_steps_estimate": 800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-12T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0013-0009"
+      ],
+      "query_index": 21,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0029466079995472683
+    },
+    {
+      "as_of": "2020-04-19T00:00:00+00:00",
+      "entity": "entity-0071",
+      "indexed_ids": [
+        "entity-0071-0008"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00021388499953900464,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00019716499991773162,
+        "sqlite_vm_steps_estimate": 700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-29T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0071-0008"
+      ],
+      "query_index": 22,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0013525379999919096
+    },
+    {
+      "as_of": "2020-01-02T00:00:00+00:00",
+      "entity": "entity-0023",
+      "indexed_ids": [],
+      "indexed_metrics": {
+        "query_seconds": 3.769499926420394e-05,
+        "rows_returned": 0,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 3.736700091394596e-05,
+        "sqlite_vm_steps_estimate": 100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-03T00:00:00+00:00",
+      "oracle_ids": [],
+      "query_index": 23,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006276430012803758
+    },
+    {
+      "as_of": "2020-02-08T00:00:00+00:00",
+      "entity": "entity-0058",
+      "indexed_ids": [
+        "entity-0058-0004"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 7.006899977568537e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 5.554300150834024e-05,
+        "sqlite_vm_steps_estimate": 300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-14T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0058-0004"
+      ],
+      "query_index": 24,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002587721999589121
+    },
+    {
+      "as_of": "2020-07-14T00:00:00+00:00",
+      "entity": "entity-0006",
+      "indexed_ids": [
+        "entity-0006-0032"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00017592999938642606,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00016025600052671507,
+        "sqlite_vm_steps_estimate": 3000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-09T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0006-0032"
+      ],
+      "query_index": 25,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001008688999718288
+    },
+    {
+      "as_of": "2020-04-21T00:00:00+00:00",
+      "entity": "entity-0013",
+      "indexed_ids": [
+        "entity-0013-0030"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00013629700151795987,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001228220007760683,
+        "sqlite_vm_steps_estimate": 2600,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-02T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0013-0030"
+      ],
+      "query_index": 26,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0022072650008340133
+    },
+    {
+      "as_of": "2020-03-11T00:00:00+00:00",
+      "entity": "entity-0052",
+      "indexed_ids": [
+        "entity-0052-0009"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 8.473100024275482e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 7.082000047375914e-05,
+        "sqlite_vm_steps_estimate": 1100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-02T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0052-0009"
+      ],
+      "query_index": 27,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001396357998601161
+    },
+    {
+      "as_of": "2020-01-31T00:00:00+00:00",
+      "entity": "entity-0013",
+      "indexed_ids": [
+        "entity-0013-0010"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 7.66850007494213e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 6.362800013448577e-05,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-06T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0013-0010"
+      ],
+      "query_index": 28,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008541280003555585
+    },
+    {
+      "as_of": "2020-06-18T00:00:00+00:00",
+      "entity": "entity-0107",
+      "indexed_ids": [
+        "entity-0107-0021"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 9.618399963073898e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 8.371200055989902e-05,
+        "sqlite_vm_steps_estimate": 1700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0107-0021"
+      ],
+      "query_index": 29,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010088819999509724
+    },
+    {
+      "as_of": "2020-04-09T00:00:00+00:00",
+      "entity": "entity-0127",
+      "indexed_ids": [
+        "entity-0127-0002"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0003288330008217599,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00031413599936058745,
+        "sqlite_vm_steps_estimate": 300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-14T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0127-0002"
+      ],
+      "query_index": 30,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007002639995334903
+    },
+    {
+      "as_of": "2020-01-14T00:00:00+00:00",
+      "entity": "entity-0092",
+      "indexed_ids": [
+        "entity-0092-0004"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001182670002890518,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00010737400043581147,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-23T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0092-0004"
+      ],
+      "query_index": 31,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000755847999243997
+    },
+    {
+      "as_of": "2020-04-02T00:00:00+00:00",
+      "entity": "entity-0061",
+      "indexed_ids": [
+        "entity-0061-0008"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 7.024899969110265e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 5.9035999584011734e-05,
+        "sqlite_vm_steps_estimate": 800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-29T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0061-0008"
+      ],
+      "query_index": 32,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010675100002117688
+    },
+    {
+      "as_of": "2020-07-08T00:00:00+00:00",
+      "entity": "entity-0121",
+      "indexed_ids": [
+        "entity-0121-0055"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00021971200112602673,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00020786400091310497,
+        "sqlite_vm_steps_estimate": 4600,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-15T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0121-0055"
+      ],
+      "query_index": 33,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011553849999472732
+    },
+    {
+      "as_of": "2020-05-04T00:00:00+00:00",
+      "entity": "entity-0008",
+      "indexed_ids": [
+        "entity-0008-0005-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 6.87930005369708e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 5.658800000674091e-05,
+        "sqlite_vm_steps_estimate": 700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-24T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0008-0005-c1"
+      ],
+      "query_index": 34,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006394040010491153
+    },
+    {
+      "as_of": "2020-02-28T00:00:00+00:00",
+      "entity": "entity-0006",
+      "indexed_ids": [
+        "entity-0006-0009"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0006226160003279801,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.000605748000452877,
+        "sqlite_vm_steps_estimate": 800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-27T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0006-0009"
+      ],
+      "query_index": 35,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007559130008303327
+    },
+    {
+      "as_of": "2020-05-01T00:00:00+00:00",
+      "entity": "entity-0108",
+      "indexed_ids": [
+        "entity-0108-0030"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0010575369997241069,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.001041288000124041,
+        "sqlite_vm_steps_estimate": 2400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-31T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0108-0030"
+      ],
+      "query_index": 36,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011985450000793207
+    },
+    {
+      "as_of": "2020-01-08T00:00:00+00:00",
+      "entity": "entity-0111",
+      "indexed_ids": [
+        "entity-0111-0002"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00021825800104124937,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00020435199985513464,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-07T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0111-0002"
+      ],
+      "query_index": 37,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000709040001311223
+    },
+    {
+      "as_of": "2020-06-04T00:00:00+00:00",
+      "entity": "entity-0035",
+      "indexed_ids": [
+        "entity-0035-0011"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 8.310999874083791e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 7.23489993106341e-05,
+        "sqlite_vm_steps_estimate": 1100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-05T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0035-0011"
+      ],
+      "query_index": 38,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006678080007986864
+    },
+    {
+      "as_of": "2020-01-27T00:00:00+00:00",
+      "entity": "entity-0114",
+      "indexed_ids": [
+        "entity-0114-0008"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 9.652900007495191e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 8.610199984104838e-05,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-30T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0114-0008"
+      ],
+      "query_index": 39,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0005936939996900037
+    },
+    {
+      "as_of": "2020-06-23T00:00:00+00:00",
+      "entity": "entity-0007",
+      "indexed_ids": [
+        "entity-0007-0000"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 3.815099989878945e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 2.8589000066858716e-05,
+        "sqlite_vm_steps_estimate": 100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-03T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0007-0000"
+      ],
+      "query_index": 40,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000853441999424831
+    },
+    {
+      "as_of": "2020-05-31T00:00:00+00:00",
+      "entity": "entity-0099",
+      "indexed_ids": [
+        "entity-0099-0050-branch",
+        "entity-0099-0050-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0003920479994121706,
+        "rows_returned": 2,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00018858700059354305,
+        "sqlite_vm_steps_estimate": 4200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0099-0050-branch",
+        "entity-0099-0050-c1"
+      ],
+      "query_index": 41,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000800614998297533
+    },
+    {
+      "as_of": "2020-07-01T00:00:00+00:00",
+      "entity": "entity-0123",
+      "indexed_ids": [
+        "entity-0123-0041"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00032497400025022216,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0003100519988947781,
+        "sqlite_vm_steps_estimate": 3500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-03T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0123-0041"
+      ],
+      "query_index": 42,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0013258959988888819
+    },
+    {
+      "as_of": "2020-04-30T00:00:00+00:00",
+      "entity": "entity-0113",
+      "indexed_ids": [
+        "entity-0113-0040"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00017689199921733234,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00016523599879292306,
+        "sqlite_vm_steps_estimate": 3300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-26T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0113-0040"
+      ],
+      "query_index": 43,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008791309992375318
+    },
+    {
+      "as_of": "2020-05-31T00:00:00+00:00",
+      "entity": "entity-0061",
+      "indexed_ids": [
+        "entity-0061-0000"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 4.309399992052931e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 3.280000055383425e-05,
+        "sqlite_vm_steps_estimate": 200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-03T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0061-0000"
+      ],
+      "query_index": 44,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009667370013630716
+    },
+    {
+      "as_of": "2020-03-16T00:00:00+00:00",
+      "entity": "entity-0000",
+      "indexed_ids": [
+        "entity-0000-0025"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00015542800065304618,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00014202400052454323,
+        "sqlite_vm_steps_estimate": 2400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-31T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0000-0025"
+      ],
+      "query_index": 45,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009376289999636356
+    },
+    {
+      "as_of": "2020-03-03T00:00:00+00:00",
+      "entity": "entity-0024",
+      "indexed_ids": [
+        "entity-0024-0004"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 6.523199954244774e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 5.3977999414200895e-05,
+        "sqlite_vm_steps_estimate": 400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-14T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0024-0004"
+      ],
+      "query_index": 46,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007628729999851203
+    },
+    {
+      "as_of": "2020-02-20T00:00:00+00:00",
+      "entity": "entity-0072",
+      "indexed_ids": [
+        "entity-0072-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001371220005239593,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00012637399959203321,
+        "sqlite_vm_steps_estimate": 1800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0072-0016"
+      ],
+      "query_index": 47,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0018851730001188116
+    },
+    {
+      "as_of": "2020-05-17T00:00:00+00:00",
+      "entity": "entity-0092",
+      "indexed_ids": [
+        "entity-0092-0045"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018054599968309049,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00016603800031589344,
+        "sqlite_vm_steps_estimate": 3900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-29T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0092-0045"
+      ],
+      "query_index": 48,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002089565999995102
+    },
+    {
+      "as_of": "2020-01-28T00:00:00+00:00",
+      "entity": "entity-0062",
+      "indexed_ids": [
+        "entity-0062-0009"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00013092500012135133,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00011568700028874446,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-20T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0062-0009"
+      ],
+      "query_index": 49,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001179471000796184
+    },
+    {
+      "as_of": "2020-02-11T00:00:00+00:00",
+      "entity": "entity-0101",
+      "indexed_ids": [
+        "entity-0101-0013"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0014045129992155125,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0013810149994242238,
+        "sqlite_vm_steps_estimate": 1300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-25T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0101-0013"
+      ],
+      "query_index": 50,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.005432934000054956
+    },
+    {
+      "as_of": "2020-05-27T00:00:00+00:00",
+      "entity": "entity-0033",
+      "indexed_ids": [
+        "entity-0033-0036"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.000989411999398726,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0009674749999248888,
+        "sqlite_vm_steps_estimate": 3300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-20T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0033-0036"
+      ],
+      "query_index": 51,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0017954069990082644
+    },
+    {
+      "as_of": "2020-01-07T00:00:00+00:00",
+      "entity": "entity-0008",
+      "indexed_ids": [
+        "entity-0008-0002-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001615370001673,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00014712899974256288,
+        "sqlite_vm_steps_estimate": 800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0008-0002-c1"
+      ],
+      "query_index": 52,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002005061000090791
+    },
+    {
+      "as_of": "2020-05-12T00:00:00+00:00",
+      "entity": "entity-0041",
+      "indexed_ids": [
+        "entity-0041-0039"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0008641719996376196,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0008427769989793887,
+        "sqlite_vm_steps_estimate": 3300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-28T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0041-0039"
+      ],
+      "query_index": 53,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0016115489997901022
+    },
+    {
+      "as_of": "2020-07-25T00:00:00+00:00",
+      "entity": "entity-0061",
+      "indexed_ids": [
+        "entity-0061-0063"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0010347019997425377,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0005507049991138047,
+        "sqlite_vm_steps_estimate": 5200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-21T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0061-0063"
+      ],
+      "query_index": 54,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001161185000455589
+    },
+    {
+      "as_of": "2020-04-21T00:00:00+00:00",
+      "entity": "entity-0019",
+      "indexed_ids": [
+        "entity-0019-0037-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00021799000023747794,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00019850699936796445,
+        "sqlite_vm_steps_estimate": 3400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-01T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0019-0037-c1"
+      ],
+      "query_index": 55,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001230031000886811
+    },
+    {
+      "as_of": "2020-02-02T00:00:00+00:00",
+      "entity": "entity-0111",
+      "indexed_ids": [
+        "entity-0111-0010-branch",
+        "entity-0111-0010-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00010164100058318581,
+        "rows_returned": 2,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 8.131799950206187e-05,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-02T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0111-0010-branch",
+        "entity-0111-0010-c1"
+      ],
+      "query_index": 56,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006832769995526178
+    },
+    {
+      "as_of": "2020-07-04T00:00:00+00:00",
+      "entity": "entity-0099",
+      "indexed_ids": [
+        "entity-0099-0061"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00047612900016247295,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0004595639984472655,
+        "sqlite_vm_steps_estimate": 4900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0099-0061"
+      ],
+      "query_index": 57,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010747200012701796
+    },
+    {
+      "as_of": "2020-05-26T00:00:00+00:00",
+      "entity": "entity-0042",
+      "indexed_ids": [
+        "entity-0042-0003"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00012989400056540035,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001164010009233607,
+        "sqlite_vm_steps_estimate": 400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-13T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0042-0003"
+      ],
+      "query_index": 58,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011541650001163362
+    },
+    {
+      "as_of": "2020-07-15T00:00:00+00:00",
+      "entity": "entity-0057",
+      "indexed_ids": [
+        "entity-0057-0063"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0004310530002840096,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00041489499926683493,
+        "sqlite_vm_steps_estimate": 4900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-17T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0057-0063"
+      ],
+      "query_index": 59,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001288256000407273
+    },
+    {
+      "as_of": "2020-01-27T00:00:00+00:00",
+      "entity": "entity-0125",
+      "indexed_ids": [
+        "entity-0125-0008"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00019239799985371064,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001759349997882964,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-24T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0125-0008"
+      ],
+      "query_index": 60,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009875750001810957
+    },
+    {
+      "as_of": "2020-04-30T00:00:00+00:00",
+      "entity": "entity-0070",
+      "indexed_ids": [
+        "entity-0070-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 9.350000073027331e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 8.074200013652444e-05,
+        "sqlite_vm_steps_estimate": 1300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-19T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0070-0016"
+      ],
+      "query_index": 61,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009697650002635783
+    },
+    {
+      "as_of": "2020-02-04T00:00:00+00:00",
+      "entity": "entity-0047",
+      "indexed_ids": [
+        "entity-0047-0011"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00010449699948367197,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 9.248800051864237e-05,
+        "sqlite_vm_steps_estimate": 1000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-14T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0047-0011"
+      ],
+      "query_index": 62,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010637559989845613
+    },
+    {
+      "as_of": "2020-06-07T00:00:00+00:00",
+      "entity": "entity-0113",
+      "indexed_ids": [
+        "entity-0113-0014"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 8.403100036957767e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 7.232600000861567e-05,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-15T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0113-0014"
+      ],
+      "query_index": 63,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011252620006416691
+    },
+    {
+      "as_of": "2020-02-20T00:00:00+00:00",
+      "entity": "entity-0110",
+      "indexed_ids": [
+        "entity-0110-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001065479991666507,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 9.256699922843836e-05,
+        "sqlite_vm_steps_estimate": 1400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0110-0016"
+      ],
+      "query_index": 64,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009144209998339647
+    },
+    {
+      "as_of": "2020-07-29T00:00:00+00:00",
+      "entity": "entity-0067",
+      "indexed_ids": [
+        "entity-0067-0063"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0002583419991424307,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0002450459996907739,
+        "sqlite_vm_steps_estimate": 5400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0067-0063"
+      ],
+      "query_index": 65,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011789609998231754
+    },
+    {
+      "as_of": "2020-01-25T00:00:00+00:00",
+      "entity": "entity-0077",
+      "indexed_ids": [
+        "entity-0077-0008"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00011032300062652212,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 9.152100028586574e-05,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-30T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0077-0008"
+      ],
+      "query_index": 66,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011584349995246157
+    },
+    {
+      "as_of": "2020-03-12T00:00:00+00:00",
+      "entity": "entity-0126",
+      "indexed_ids": [
+        "entity-0126-0023"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00021275800099829212,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001217500011989614,
+        "sqlite_vm_steps_estimate": 2100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-27T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0126-0023"
+      ],
+      "query_index": 67,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.00098590699963097
+    },
+    {
+      "as_of": "2020-04-23T00:00:00+00:00",
+      "entity": "entity-0064",
+      "indexed_ids": [
+        "entity-0064-0037"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0004071359999215929,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0003907099999196362,
+        "sqlite_vm_steps_estimate": 3300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-09T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0064-0037"
+      ],
+      "query_index": 68,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008451670000795275
+    },
+    {
+      "as_of": "2020-06-14T00:00:00+00:00",
+      "entity": "entity-0118",
+      "indexed_ids": [
+        "entity-0118-0041"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0004169969997747103,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00040215700028056744,
+        "sqlite_vm_steps_estimate": 3300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-10T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0118-0041"
+      ],
+      "query_index": 69,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0012516170008893823
+    },
+    {
+      "as_of": "2020-05-28T00:00:00+00:00",
+      "entity": "entity-0097",
+      "indexed_ids": [
+        "entity-0097-0049"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0005833770010212902,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0005670930004271213,
+        "sqlite_vm_steps_estimate": 4300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-05T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0097-0049"
+      ],
+      "query_index": 70,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.005884875999981887
+    },
+    {
+      "as_of": "2020-01-18T00:00:00+00:00",
+      "entity": "entity-0081",
+      "indexed_ids": [
+        "entity-0081-0005"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0002082029986922862,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00019095399875368457,
+        "sqlite_vm_steps_estimate": 700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-11T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0081-0005"
+      ],
+      "query_index": 71,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010917439994955203
+    },
+    {
+      "as_of": "2020-01-12T00:00:00+00:00",
+      "entity": "entity-0006",
+      "indexed_ids": [
+        "entity-0006-0003"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00014167799963615835,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001264829988940619,
+        "sqlite_vm_steps_estimate": 600,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-04T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0006-0003"
+      ],
+      "query_index": 72,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0005705969997507054
+    },
+    {
+      "as_of": "2020-03-22T00:00:00+00:00",
+      "entity": "entity-0049",
+      "indexed_ids": [
+        "entity-0049-0027"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00036269000156607945,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00031709000177215785,
+        "sqlite_vm_steps_estimate": 2500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-21T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0049-0027"
+      ],
+      "query_index": 73,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006854120001662523
+    },
+    {
+      "as_of": "2020-02-01T00:00:00+00:00",
+      "entity": "entity-0006",
+      "indexed_ids": [
+        "entity-0006-0010"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00014787200052523986,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00013600700003735255,
+        "sqlite_vm_steps_estimate": 1500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-06T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0006-0010"
+      ],
+      "query_index": 74,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009059629992407281
+    },
+    {
+      "as_of": "2020-03-06T00:00:00+00:00",
+      "entity": "entity-0072",
+      "indexed_ids": [
+        "entity-0072-0021-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00011856200035254005,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00010597600157780107,
+        "sqlite_vm_steps_estimate": 1900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-30T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0072-0021-c1"
+      ],
+      "query_index": 75,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0012246380010765279
+    },
+    {
+      "as_of": "2020-06-03T00:00:00+00:00",
+      "entity": "entity-0070",
+      "indexed_ids": [
+        "entity-0070-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001460860003135167,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 7.358100083365571e-05,
+        "sqlite_vm_steps_estimate": 1300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-18T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0070-0016"
+      ],
+      "query_index": 76,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007884950009611202
+    },
+    {
+      "as_of": "2020-02-08T00:00:00+00:00",
+      "entity": "entity-0037",
+      "indexed_ids": [
+        "entity-0037-0011"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00014034299965715036,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00012759499986714218,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0037-0011"
+      ],
+      "query_index": 77,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0005518599991773954
+    },
+    {
+      "as_of": "2020-06-05T00:00:00+00:00",
+      "entity": "entity-0049",
+      "indexed_ids": [
+        "entity-0049-0052"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.000441273001342779,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.000426729000537307,
+        "sqlite_vm_steps_estimate": 4400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-24T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0049-0052"
+      ],
+      "query_index": 78,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008286610009236028
+    },
+    {
+      "as_of": "2020-04-29T00:00:00+00:00",
+      "entity": "entity-0116",
+      "indexed_ids": [
+        "entity-0116-0002"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 5.485099973157048e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 4.354999873612542e-05,
+        "sqlite_vm_steps_estimate": 200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-06T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0116-0002"
+      ],
+      "query_index": 79,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000989662999927532
+    },
+    {
+      "as_of": "2020-07-14T00:00:00+00:00",
+      "entity": "entity-0002",
+      "indexed_ids": [
+        "entity-0002-0063-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0004811409999092575,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0004635860004782444,
+        "sqlite_vm_steps_estimate": 5300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-17T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0002-0063-c1"
+      ],
+      "query_index": 80,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0012008339999738382
+    },
+    {
+      "as_of": "2020-05-24T00:00:00+00:00",
+      "entity": "entity-0101",
+      "indexed_ids": [
+        "entity-0101-0012"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018026699945039582,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00016439699902548455,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-15T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0101-0012"
+      ],
+      "query_index": 81,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001091295000151149
+    },
+    {
+      "as_of": "2020-05-07T00:00:00+00:00",
+      "entity": "entity-0122",
+      "indexed_ids": [
+        "entity-0122-0011"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0002834490005625412,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00026784300098370295,
+        "sqlite_vm_steps_estimate": 1300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0122-0011"
+      ],
+      "query_index": 82,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001095562000045902
+    },
+    {
+      "as_of": "2020-04-22T00:00:00+00:00",
+      "entity": "entity-0012",
+      "indexed_ids": [],
+      "indexed_metrics": {
+        "query_seconds": 3.478799953882117e-05,
+        "rows_returned": 0,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 3.444799949647859e-05,
+        "sqlite_vm_steps_estimate": 0,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-01T00:00:00+00:00",
+      "oracle_ids": [],
+      "query_index": 83,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008248590002040146
+    },
+    {
+      "as_of": "2020-07-29T00:00:00+00:00",
+      "entity": "entity-0024",
+      "indexed_ids": [
+        "entity-0024-0025"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00026593199982016813,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00025012900005094707,
+        "sqlite_vm_steps_estimate": 2000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-20T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0024-0025"
+      ],
+      "query_index": 84,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010175670013268245
+    },
+    {
+      "as_of": "2020-02-13T00:00:00+00:00",
+      "entity": "entity-0058",
+      "indexed_ids": [
+        "entity-0058-0014-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0003016970003955066,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00028651799948420376,
+        "sqlite_vm_steps_estimate": 1400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-28T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0058-0014-c1"
+      ],
+      "query_index": 85,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006819110003561946
+    },
+    {
+      "as_of": "2020-06-14T00:00:00+00:00",
+      "entity": "entity-0053",
+      "indexed_ids": [
+        "entity-0053-0021"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00010275400018144865,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 9.074499939742964e-05,
+        "sqlite_vm_steps_estimate": 1800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-07T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0053-0021"
+      ],
+      "query_index": 86,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007462030007445719
+    },
+    {
+      "as_of": "2020-03-06T00:00:00+00:00",
+      "entity": "entity-0087",
+      "indexed_ids": [
+        "entity-0087-0021-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00014919699970050715,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00013713999942410737,
+        "sqlite_vm_steps_estimate": 2100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-10T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0087-0021-c1"
+      ],
+      "query_index": 87,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000762423000196577
+    },
+    {
+      "as_of": "2020-01-13T00:00:00+00:00",
+      "entity": "entity-0081",
+      "indexed_ids": [
+        "entity-0081-0004"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 5.1012999392696656e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 4.0547000025981106e-05,
+        "sqlite_vm_steps_estimate": 400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-21T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0081-0004"
+      ],
+      "query_index": 88,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007151869995141169
+    },
+    {
+      "as_of": "2020-02-20T00:00:00+00:00",
+      "entity": "entity-0018",
+      "indexed_ids": [
+        "entity-0018-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00027536200104805175,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00026200600041192956,
+        "sqlite_vm_steps_estimate": 1400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-24T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0018-0016"
+      ],
+      "query_index": 89,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0012562020001496421
+    },
+    {
+      "as_of": "2020-06-02T00:00:00+00:00",
+      "entity": "entity-0108",
+      "indexed_ids": [
+        "entity-0108-0031"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0004163630001130514,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00012332500045886263,
+        "sqlite_vm_steps_estimate": 2500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-09T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0108-0031"
+      ],
+      "query_index": 90,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002778234998913831
+    },
+    {
+      "as_of": "2020-01-10T00:00:00+00:00",
+      "entity": "entity-0091",
+      "indexed_ids": [
+        "entity-0091-0003"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0003512330004014075,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0003332979995320784,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-24T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0091-0003"
+      ],
+      "query_index": 91,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009565740001562517
+    },
+    {
+      "as_of": "2020-02-29T00:00:00+00:00",
+      "entity": "entity-0008",
+      "indexed_ids": [
+        "entity-0008-0019"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00015343700033554342,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00013959100033389404,
+        "sqlite_vm_steps_estimate": 2000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-27T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0008-0019"
+      ],
+      "query_index": 92,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001168163000329514
+    },
+    {
+      "as_of": "2020-01-21T00:00:00+00:00",
+      "entity": "entity-0028",
+      "indexed_ids": [
+        "entity-0028-0006-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00019326800065755378,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00017802100046537817,
+        "sqlite_vm_steps_estimate": 1200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-05T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0028-0006-c1"
+      ],
+      "query_index": 93,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010766679988591932
+    },
+    {
+      "as_of": "2020-07-03T00:00:00+00:00",
+      "entity": "entity-0091",
+      "indexed_ids": [
+        "entity-0091-0061"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0009506610003882088,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0009324419988843147,
+        "sqlite_vm_steps_estimate": 4700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-30T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0091-0061"
+      ],
+      "query_index": 94,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0017354550000163727
+    },
+    {
+      "as_of": "2020-01-08T00:00:00+00:00",
+      "entity": "entity-0070",
+      "indexed_ids": [
+        "entity-0070-0002"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018545700004324317,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001695789997029351,
+        "sqlite_vm_steps_estimate": 700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-22T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0070-0002"
+      ],
+      "query_index": 95,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002986042001793976
+    },
+    {
+      "as_of": "2020-03-19T00:00:00+00:00",
+      "entity": "entity-0113",
+      "indexed_ids": [
+        "entity-0113-0011"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0007051590000628494,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0006798220001655864,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-04T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0113-0011"
+      ],
+      "query_index": 96,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010831379986484535
+    },
+    {
+      "as_of": "2020-01-26T00:00:00+00:00",
+      "entity": "entity-0038",
+      "indexed_ids": [
+        "entity-0038-0008"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00012950899872521404,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00011474799975985661,
+        "sqlite_vm_steps_estimate": 700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-17T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0038-0008"
+      ],
+      "query_index": 97,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011925340004381724
+    },
+    {
+      "as_of": "2020-01-18T00:00:00+00:00",
+      "entity": "entity-0013",
+      "indexed_ids": [
+        "entity-0013-0005"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 8.067899943853263e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 6.767599916202016e-05,
+        "sqlite_vm_steps_estimate": 600,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-06T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0013-0005"
+      ],
+      "query_index": 98,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0013172779999877093
+    },
+    {
+      "as_of": "2020-05-22T00:00:00+00:00",
+      "entity": "entity-0037",
+      "indexed_ids": [
+        "entity-0037-0003"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 6.18129997747019e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 4.9107999075204134e-05,
+        "sqlite_vm_steps_estimate": 400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-17T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0037-0003"
+      ],
+      "query_index": 99,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001082581999071408
+    },
+    {
+      "as_of": "2020-05-22T00:00:00+00:00",
+      "entity": "entity-0057",
+      "indexed_ids": [
+        "entity-0057-0047"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0007487269995181123,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0007294930001080502,
+        "sqlite_vm_steps_estimate": 3700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-02T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0057-0047"
+      ],
+      "query_index": 100,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007524409993493464
+    },
+    {
+      "as_of": "2020-06-19T00:00:00+00:00",
+      "entity": "entity-0042",
+      "indexed_ids": [
+        "entity-0042-0046"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00016658099957567174,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00015427600010298193,
+        "sqlite_vm_steps_estimate": 3400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-16T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0042-0046"
+      ],
+      "query_index": 101,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.002959092000310193
+    },
+    {
+      "as_of": "2020-05-07T00:00:00+00:00",
+      "entity": "entity-0050",
+      "indexed_ids": [
+        "entity-0050-0041"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00019553499987523537,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00018101699970429763,
+        "sqlite_vm_steps_estimate": 3700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-10T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0050-0041"
+      ],
+      "query_index": 102,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0013203529997554142
+    },
+    {
+      "as_of": "2020-03-01T00:00:00+00:00",
+      "entity": "entity-0081",
+      "indexed_ids": [
+        "entity-0081-0020"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00015207400065264665,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001378659999318188,
+        "sqlite_vm_steps_estimate": 1700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-04T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0081-0020"
+      ],
+      "query_index": 103,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010400650007795775
+    },
+    {
+      "as_of": "2020-05-16T00:00:00+00:00",
+      "entity": "entity-0072",
+      "indexed_ids": [
+        "entity-0072-0045"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0005081689996586647,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0004916580001008697,
+        "sqlite_vm_steps_estimate": 3900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-09T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0072-0045"
+      ],
+      "query_index": 104,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010004140003729844
+    },
+    {
+      "as_of": "2020-06-07T00:00:00+00:00",
+      "entity": "entity-0017",
+      "indexed_ids": [
+        "entity-0017-0043-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018488499881641474,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00017181899966089986,
+        "sqlite_vm_steps_estimate": 3900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-09T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0017-0043-c1"
+      ],
+      "query_index": 105,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008142450005834689
+    },
+    {
+      "as_of": "2020-01-23T00:00:00+00:00",
+      "entity": "entity-0019",
+      "indexed_ids": [
+        "entity-0019-0007-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018304299919691402,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00016906899872992653,
+        "sqlite_vm_steps_estimate": 1000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-16T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0019-0007-c1"
+      ],
+      "query_index": 106,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009860850004770327
+    },
+    {
+      "as_of": "2020-03-16T00:00:00+00:00",
+      "entity": "entity-0089",
+      "indexed_ids": [
+        "entity-0089-0025"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00029788000028929673,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00028205799935676623,
+        "sqlite_vm_steps_estimate": 2700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-10T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0089-0025"
+      ],
+      "query_index": 107,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001298052000493044
+    },
+    {
+      "as_of": "2020-02-15T00:00:00+00:00",
+      "entity": "entity-0042",
+      "indexed_ids": [
+        "entity-0042-0015"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00027227800092077814,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0002571420009189751,
+        "sqlite_vm_steps_estimate": 1500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-18T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0042-0015"
+      ],
+      "query_index": 108,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008854070001689252
+    },
+    {
+      "as_of": "2020-04-14T00:00:00+00:00",
+      "entity": "entity-0077",
+      "indexed_ids": [
+        "entity-0077-0022"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00010728000052040443,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 9.4924000222818e-05,
+        "sqlite_vm_steps_estimate": 1900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0077-0022"
+      ],
+      "query_index": 109,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008254969998233719
+    },
+    {
+      "as_of": "2020-06-05T00:00:00+00:00",
+      "entity": "entity-0018",
+      "indexed_ids": [
+        "entity-0018-0001"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 4.848100070375949e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 3.72180002159439e-05,
+        "sqlite_vm_steps_estimate": 200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-03T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0018-0001"
+      ],
+      "query_index": 110,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000748772001315956
+    },
+    {
+      "as_of": "2020-02-20T00:00:00+00:00",
+      "entity": "entity-0011",
+      "indexed_ids": [
+        "entity-0011-0016-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00034713100103545,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.000332053999954951,
+        "sqlite_vm_steps_estimate": 2000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-14T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0011-0016-c1"
+      ],
+      "query_index": 111,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0011289840003883
+    },
+    {
+      "as_of": "2020-01-19T00:00:00+00:00",
+      "entity": "entity-0112",
+      "indexed_ids": [
+        "entity-0112-0006"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00023546200100099668,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00022175100093591027,
+        "sqlite_vm_steps_estimate": 1100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-09T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0112-0006"
+      ],
+      "query_index": 112,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.001923955998790916
+    },
+    {
+      "as_of": "2020-02-19T00:00:00+00:00",
+      "entity": "entity-0092",
+      "indexed_ids": [
+        "entity-0092-0009"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 9.597499956726097e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 8.076300036918838e-05,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-31T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0092-0009"
+      ],
+      "query_index": 113,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0015801490008016117
+    },
+    {
+      "as_of": "2020-02-12T00:00:00+00:00",
+      "entity": "entity-0119",
+      "indexed_ids": [
+        "entity-0119-0014"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00013187499826017302,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00011813499986601528,
+        "sqlite_vm_steps_estimate": 1300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-18T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0119-0014"
+      ],
+      "query_index": 114,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007726280000497354
+    },
+    {
+      "as_of": "2020-06-22T00:00:00+00:00",
+      "entity": "entity-0022",
+      "indexed_ids": [
+        "entity-0022-0051-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00044717600030708127,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00018338600057177246,
+        "sqlite_vm_steps_estimate": 4000,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-08T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0022-0051-c1"
+      ],
+      "query_index": 115,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008192139994207537
+    },
+    {
+      "as_of": "2020-07-20T00:00:00+00:00",
+      "entity": "entity-0031",
+      "indexed_ids": [
+        "entity-0031-0026"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001598939998075366,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001470240003982326,
+        "sqlite_vm_steps_estimate": 2400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-20T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0031-0026"
+      ],
+      "query_index": 116,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010114990000147372
+    },
+    {
+      "as_of": "2020-04-04T00:00:00+00:00",
+      "entity": "entity-0099",
+      "indexed_ids": [
+        "entity-0099-0031-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00014742600069439504,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001344009997410467,
+        "sqlite_vm_steps_estimate": 2600,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-14T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0099-0031-c1"
+      ],
+      "query_index": 117,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0008503680001012981
+    },
+    {
+      "as_of": "2020-05-23T00:00:00+00:00",
+      "entity": "entity-0106",
+      "indexed_ids": [
+        "entity-0106-0034-c1"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0001549160006106831,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0001427019997208845,
+        "sqlite_vm_steps_estimate": 3100,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-04-18T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0106-0034-c1"
+      ],
+      "query_index": 118,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.000700653001331375
+    },
+    {
+      "as_of": "2020-06-17T00:00:00+00:00",
+      "entity": "entity-0038",
+      "indexed_ids": [
+        "entity-0038-0056"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00039748500057612546,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00038214100095501635,
+        "sqlite_vm_steps_estimate": 4400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-05T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0038-0056"
+      ],
+      "query_index": 119,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007646049998584203
+    },
+    {
+      "as_of": "2020-07-28T00:00:00+00:00",
+      "entity": "entity-0001",
+      "indexed_ids": [
+        "entity-0001-0063"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00025574100072844885,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00024245500026154332,
+        "sqlite_vm_steps_estimate": 4800,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-07-16T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0001-0063"
+      ],
+      "query_index": 120,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0009048899992194492
+    },
+    {
+      "as_of": "2020-01-12T00:00:00+00:00",
+      "entity": "entity-0096",
+      "indexed_ids": [
+        "entity-0096-0003-c2"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.000119744001494837,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00010726800064730924,
+        "sqlite_vm_steps_estimate": 900,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-05-30T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0096-0003-c2"
+      ],
+      "query_index": 121,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006905039990670048
+    },
+    {
+      "as_of": "2020-02-05T00:00:00+00:00",
+      "entity": "entity-0020",
+      "indexed_ids": [
+        "entity-0020-0010"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 6.586699964827858e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 5.486699956236407e-05,
+        "sqlite_vm_steps_estimate": 700,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-31T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0020-0010"
+      ],
+      "query_index": 122,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0017537610001454595
+    },
+    {
+      "as_of": "2020-06-15T00:00:00+00:00",
+      "entity": "entity-0124",
+      "indexed_ids": [
+        "entity-0124-0029"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.0007939150000311201,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.0007758970004942967,
+        "sqlite_vm_steps_estimate": 2500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-03-30T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0124-0029"
+      ],
+      "query_index": 123,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0007229129987535998
+    },
+    {
+      "as_of": "2020-03-07T00:00:00+00:00",
+      "entity": "entity-0016",
+      "indexed_ids": [
+        "entity-0016-0016"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 8.574999992561061e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 7.415899926854763e-05,
+        "sqlite_vm_steps_estimate": 1300,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-02-20T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0016-0016"
+      ],
+      "query_index": 124,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0005948109992459649
+    },
+    {
+      "as_of": "2020-04-09T00:00:00+00:00",
+      "entity": "entity-0106",
+      "indexed_ids": [
+        "entity-0106-0003"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 5.101500028104056e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 3.7198000427451916e-05,
+        "sqlite_vm_steps_estimate": 400,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-19T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0106-0003"
+      ],
+      "query_index": 125,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0010095300003740704
+    },
+    {
+      "as_of": "2020-03-22T00:00:00+00:00",
+      "entity": "entity-0064",
+      "indexed_ids": [
+        "entity-0064-0027"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 0.00018355199972575065,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 0.00017102499987231568,
+        "sqlite_vm_steps_estimate": 2500,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-06-26T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0064-0027"
+      ],
+      "query_index": 126,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006351780011755181
+    },
+    {
+      "as_of": "2020-05-27T00:00:00+00:00",
+      "entity": "entity-0040",
+      "indexed_ids": [
+        "entity-0040-0002"
+      ],
+      "indexed_metrics": {
+        "query_seconds": 4.405299841891974e-05,
+        "rows_returned": 1,
+        "snapshot_version": 12,
+        "sql_execute_fetch_seconds": 3.438800013100263e-05,
+        "sqlite_vm_steps_estimate": 200,
+        "vm_measurement_granularity": 100
+      },
+      "known_at": "2020-01-06T00:00:00+00:00",
+      "oracle_ids": [
+        "entity-0040-0002"
+      ],
+      "query_index": 127,
+      "scan_events_examined": 11497,
+      "scan_seconds": 0.0006596519997401629
+    }
+  ],
+  "database_page_bytes": 3981312,
+  "dataset_sha256": "03ea91483e1c84cf4405aafb82d8f0b5cc653f957ef4e9034a5221dbe6f23815",
+  "entity_count": 128,
+  "event_count": 11497,
+  "experiment": "sqlite_wal_indexed_bitemporal_vs_independent_scan",
+  "failures": [],
+  "independent_scan_seconds": {
+    "count": 128,
+    "median": 0.0010519104998820694,
+    "p95": 0.002959092000310193
+  },
+  "indexed_query_seconds": {
+    "count": 128,
+    "median": 0.00018050000016955892,
+    "p95": 0.0009506610003882088
+  },
+  "limitations": [
+    "VM instructions, Python events examined, and disk page reads are different work units; no row-scan equivalence is claimed.",
+    "Timings are one local warm-cache run, including progress-handler overhead; no serving SLA or hardware-independent speedup is claimed.",
+    "The independent scan is a correctness oracle, not an optimized in-memory temporal index.",
+    "Source records are synthetic and trusted metadata; no learned model was evaluated."
+  ],
+  "mismatch_count": 0,
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python_version": "3.12.14",
+  "query_count": 128,
+  "query_plan": [
+    "MATERIALIZE active",
+    "MATERIALIZE eligible",
+    "SEARCH events USING INDEX ix_events_key_known (entity=? AND attribute=? AND recorded_us<?)",
+    "SCAN e",
+    "CORRELATED SCALAR SUBQUERY 2",
+    "SEARCH c USING COVERING INDEX ix_events_corrections (corrects=? AND recorded_us<?)",
+    "SCAN active",
+    "SCALAR SUBQUERY 4",
+    "SEARCH active",
+    "USE TEMP B-TREE FOR ORDER BY"
+  ],
+  "scan_events_examined": 1471616,
+  "seed": 7,
+  "sqlite_version": "3.53.1",
+  "sqlite_vm_step_granularity": 100,
+  "sqlite_vm_steps_estimate": {
+    "count": 128,
+    "median": 1400.0,
+    "p95": 4800
+  }
+}
