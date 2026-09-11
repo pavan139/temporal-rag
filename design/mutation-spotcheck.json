@@ -1,0 +1,55 @@
+{
+  "method": "manual_isolated_copy_spotcheck",
+  "baseline": "current reviewed working-tree source",
+  "test_command": "PYTHONPATH=src python -m unittest discover -s test -p test_review.py -v",
+  "baseline_passed": true,
+  "selected_mutations": 3,
+  "detected_selected_mutations": 3,
+  "full_mutation_coverage_claim": false,
+  "testproof_status": "unavailable: npx --no-install testproof failed because executable package is not installed; nothing downloaded",
+  "mutations": [
+    {
+      "mutation": "remove_known_time_guard",
+      "source": "src/temporal_rag/retrieval.py",
+      "replacement": {
+        "before": "if timestamp(event.recorded_at) > timestamp(query.known_at):",
+        "after": "if False:"
+      },
+      "return_code": 1,
+      "detected_by_behavioral_tests": true,
+      "failing_tests": [
+        "test_answer_boundary_rejects_future_recording (test_review.TemporalReviewTests.test_answer_boundary_rejects_future_recording)",
+        "test_generation_boundary_rejects_future_context_before_model_call (test_review.TemporalReviewTests.test_generation_boundary_rejects_future_context_before_model_call)"
+      ]
+    },
+    {
+      "mutation": "remove_effective_time_guard",
+      "source": "src/temporal_rag/retrieval.py",
+      "replacement": {
+        "before": "if timestamp(event.effective_at) > timestamp(query.as_of):\n            raise TemporalError",
+        "after": "if False:\n            raise TemporalError"
+      },
+      "return_code": 1,
+      "detected_by_behavioral_tests": true,
+      "failing_tests": [
+        "test_answer_boundary_rejects_future_effective_fact (test_review.TemporalReviewTests.test_answer_boundary_rejects_future_effective_fact)",
+        "test_evaluation_records_context_rejections_and_slice_denominators (test_review.TemporalReviewTests.test_evaluation_records_context_rejections_and_slice_denominators)"
+      ]
+    },
+    {
+      "mutation": "expose_unpublished_candidates",
+      "source": "src/temporal_rag/retrieval.py",
+      "replacement": {
+        "before": "visible = self.store.visible(query)",
+        "after": "visible = self.store.events"
+      },
+      "return_code": 1,
+      "detected_by_behavioral_tests": true,
+      "failing_tests": [
+        "test_evaluation_records_context_rejections_and_slice_denominators (test_review.TemporalReviewTests.test_evaluation_records_context_rejections_and_slice_denominators)",
+        "test_retrieval_explanation_classifies_corrections_and_future_announcements (test_review.TemporalReviewTests.test_retrieval_explanation_classifies_corrections_and_future_announcements)",
+        "test_retrieval_explanation_hides_unpublished_event_ids (test_review.TemporalReviewTests.test_retrieval_explanation_hides_unpublished_event_ids)"
+      ]
+    }
+  ]
+}
