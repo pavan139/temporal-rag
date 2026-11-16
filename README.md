@@ -1,5 +1,15 @@
 # Temporal RAG
 
+<!-- at-a-glance -->
+[![ci](https://github.com/pavan139/temporal-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/pavan139/temporal-rag/actions/workflows/ci.yml) ![license: MIT](https://img.shields.io/badge/license-MIT-blue)
+
+| | |
+| --- | --- |
+| **Problem** | RAG over facts that change returns the right sentence from the wrong point in time. |
+| **Result** | Recovered **19/19** exact source sets vs **11/19** for a lexical + recency baseline (synthetic facts). |
+<!-- /at-a-glance -->
+
+
 Who owned Atlas on February 15? The answer can change when the question is asked with a later knowledge cutoff:
 
 ```python
