@@ -7,6 +7,7 @@
 | --- | --- |
 | **Problem** | RAG over facts that change returns the right sentence from the wrong point in time. |
 | **Result** | Recovered **19/19** exact source sets vs **11/19** for a lexical + recency baseline (synthetic facts). |
+| **Try it** | `pip install -e .` then `python -m temporal_rag evaluate --output artifacts/fixture-evaluation.json` |
 <!-- /at-a-glance -->
 
 
